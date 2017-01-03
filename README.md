@@ -1,4 +1,4 @@
-# algo_trading_front_end
+# navie_front_end
 
 > A Vue.js project
 
