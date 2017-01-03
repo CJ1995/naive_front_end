@@ -1,12 +1,12 @@
 <template>
   <div>
-    <p>Hello in List.Vue</p>
+    <p>Welcome to home page.</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'item',
+  name: 'home',
   data() {
     return {};
   },

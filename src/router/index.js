@@ -4,15 +4,15 @@
 
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Item from '../views/Item';
-import List from '../views/List';
+import Home from '../views/Home';
+import Table from '../views/Table';
 
 Vue.use(VueRouter);
 
 export default new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/foo', component: Item },
-    { path: '/bar', component: List },
+    { path: '/', component: Home },
+    { path: '/table', component: Table },
   ],
 });

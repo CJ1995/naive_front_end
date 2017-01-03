@@ -1,24 +1,20 @@
 <template>
   <div id="app">
-    <p>
-      <router-link to="/foo">Go to Foo</router-link>
-      <router-link to="/bar">Go to Bar</router-link>
-    </p>
+    <el-menu theme="dark" default-active="1" class="el-menu-demo" mode="horizontal" :router="true">
+      <router-link to="/">
+        <el-menu-item index="1">Foo</el-menu-item>
+      </router-link>
+      <router-link to="/table">
+        <el-menu-item index="2">Bar</el-menu-item>
+      </router-link>
+    </el-menu>
+
     <router-view></router-view>
-    <!--<h1>Hello World</h1>-->
-    <!--<Item></Item>-->
-    <!--<-->
   </div>
 </template>
 
 <script>
-//  import Navbar from './components/Navbar';
-//  import Hello from './components/Hello'
-// import Item from './views/Item';
-
-export default {
-  name: 'app',
-  // components: { Item },
-//    components: { Navbar, Hello },
-};
+  export default {
+    name: 'app',
+  };
 </script>
