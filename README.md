@@ -1,4 +1,4 @@
-# navie_front_end
+# naive_front_end
 
 > A Vue.js project
 
